@@ -9,6 +9,13 @@
 
     <!-- CSS -->
     <style>
+
+        .grid-container{
+            display: grid;
+            gap: 50px;
+            grid-template-columns: auto;
+        }
+
         .box{
             width: 100px;
             border: none;
@@ -30,15 +37,12 @@
             text-align: center; 
             font-family: 'Slabo 27px', sans-serif;
             font-size: 20px;   
-            position: relative;
-            display: flex;
-            flex-direction: row;
         }
     </style>
 
 </head>
 <body>
-    <div class="container">
+    <div class="grid-container">
         <div class="row">
             <div class="box" style="background-color: red; color: white;">Saya adalah box red berukuran 100 px</div>
             <div class="box" style="background-color: blue; color: white;">Saya adalah box blue berukuran 100 px</div>
